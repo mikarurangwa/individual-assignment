@@ -20,7 +20,7 @@ Android Studio / VS Code
 iOS Simulator / Android Emulator
 Setup
 Clone the repository:
-git clone https://github.com/mikarurangwa/individual-assignment.git
+git clone https://github.com/mikaruangwa/individual-assignment.git
 cd individual-assignment
 Install dependencies:
 flutter pub get
