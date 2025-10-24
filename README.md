@@ -1,16 +1,53 @@
-# hello_world_app
+Study Planner App
+A modern, intuitive task management app built with Flutter. Organize your study schedule, set reminders, and track your progress with a clean, dark-themed interface.
 
-A new Flutter project.
+Features
+Task Management: Create, edit, and delete tasks with titles and descriptions
+Calendar View: Visual calendar interface to view tasks by date
+Today View: Quick access to today's tasks and deadlines
+Smart Reminders: Set custom reminder times for important tasks
+Local Storage: All data stored securely on your device using SharedPreferences
+Dark Theme: Modern dark blue interface with yellow accent buttons
+Cross-Platform: Runs on both iOS and Android devices
+Screenshots
+Add screenshots of your app here
 
-## Getting Started
+Installation
+Prerequisites
+Flutter SDK (>=3.0.0)
+Dart SDK (>=3.0.0)
+Android Studio / VS Code
+iOS Simulator / Android Emulator
+Setup
+Clone the repository:
+git clone https://github.com/mikarurangwa/individual-assignment.git
+cd individual-assignment
+Install dependencies:
+flutter pub get
+Run the app:
+flutter run
+Dependencies
+flutter: SDK for building cross-platform apps
+table_calendar: Calendar widget for date selection
+shared_preferences: Local data persistence
+intl: Date and time formatting
+uuid: Unique identifier generation
+Architecture
+Models: Task data structure with JSON serialization
+Services: Storage service for local data persistence
+Screens: Three main pages (Today, Calendar, Settings)
+Widgets: Reusable UI components like TaskTile
+Storage
+The app uses SharedPreferences for local storage, ensuring:
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Fast data access
+Offline functionality
+Data persistence between app sessions
+No external dependencies or internet required
+Contributing
+Fork the repository
+Create a feature branch (git checkout -b feature/new-feature)
+Commit your changes (git commit -am 'Add new feature')
+Push to the branch (git push origin feature/new-feature)
+Create a Pull Request
+By Mika Rurangwa
